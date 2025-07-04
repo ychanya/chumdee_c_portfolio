@@ -1,4 +1,4 @@
-# Final Integrated Project (FIP)
+# Portfolio
 A responsive portfolio site for showcasing design and development skills.
 
 ## **Contributing**
