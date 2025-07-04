@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanya Chumdee</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-[#121212] text-[#D9D9D9] font-[jost]">
+    <section class="bg-[url(images/bg_dark_mb.png)] lg:bg-[url(images/bg_dark_dk.png)] bg-no-repeat bg-cover">
+        <header
+            class="grid grid-cols-4 lg:grid-cols-12 gap-[20px] px-[15px] py-[20px] text-center items-center justify-items-center">
+            <img src="images/hamburger.svg" alt="hamburger tab" class="lg:hidden">
+
+            <a href="index.html"
+                class="text-[48px] max-lg:hidden col-start-1 col-span-3 hover:text-[#CA2854]">C.Chanya</a>
+
+            <ul class="max-lg:hidden col-start-8 col-span-4 flex justify-between text-[24px] w-full">
+                <li><a href="index.html" class="hover:text-[#CA2854]">Home</a></li>
+                <li><a href="about.html" class="hover:text-[#CA2854]">About</a></li>
+                <li><a href="projects.html" class="hover:text-[#CA2854]">Projects</a></li>
+                <li><a href="contact.html" class="hover:text-[#CA2854]">Contact</a></li>
+            </ul>
+
+            <img src="images/brightmode.svg" alt="brightmode button" class="col-start-4 lg:col-start-12 ">
+        </header>
+
+        <section class="grid grid-cols-4 md:grid-cols-12 gap-[20px] px-[15px] py-[52px] justify-items-center">
+            <img src="images/chanya_avatar.svg" alt="chanya avatar" class="col-start-2 col-span-2 md:col-start-3 ">
+
+            <section class="col-span-full text-center md:col-start-7 md:col-span-5 md:text-left">
+                <h1 class="text-[48px] col-start-1 md:col-start-7">Get In Touch</h1>
+                <p class="py-[48px] text-[24px]">Hey! Whether you have a cool idea, a project you’d like
+                    to collaborate
+                    on, or just want to say hi, I’d love to hear from you.</p>
+                <figure class="flex flex-row flex-wrap gap-10 justify-center md:justify-start">
+                    <a href="https://github.com/ychanya" target="_blank">
+                        <img src="images/github_icon.svg" alt="github icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/chanya-chumdee-255b0634a/" target="_blank">
+                        <img src="images/linkedin_icon.svg" alt="linkedin icon">
+                    </a>
+                    <a href="https://www.instagram.com/ya.chanya/" target="_blank">
+                        <img src="images/instagram.svg" alt="instagram icon">
+                    </a>
+                </figure>
+            </section>
+        </section>
+
+    </section>
+
+    <form class="grid grid-cols-4 md:grid-cols-12 gap-[20px] px-[15px] mt-[60px] mb-[60px]">
+        <h2 class="text-[32px] text-center col-span-full md:col-start-2 md:col-span-4 md:text-left">Send an
+            email</h2>
+
+        <div
+            class="bg-[#3B3B3B] h-[594px] col-span-full md:col-start-2 md:col-span-10 gap-[20px] pt-[78px] pb-[48px] rounded-3xl grid grid-cols-10">
+            <div class="relative col-start-2 col-span-4">
+                <input type="text" placeholder="Your name" id="name"
+                    class="bg-[#3B3B3B] w-full h-[88px] border rounded-lg line-clamp-1 p-4 col-start-3 col-span-4">
+                <label class="absolute left-3 -top-3 bg-[#3B3B3B] px-2" for="name">Name</label>
+            </div>
+
+            <div class="relative col-start-6 col-span-4">
+                <input type="text" placeholder="Your email" id="email"
+                    class="bg-[#3B3B3B] w-full h-[88px] border rounded-lg line-clamp-1 p-4">
+                <label class="absolute left-3 -top-3 bg-[#3B3B3B] px-2" for="name">Email</label>
+            </div>
+
+            <div class="relative col-start-2 col-span-8">
+                <input type="text" placeholder="Your message" id="message"
+                    class="bg-[#3B3B3B] w-full h-[250px] border rounded-lg line-clamp-1 p-4">
+                <label class="absolute left-3 -top-3 bg-[#3B3B3B] px-2" for="name">Message</label>
+            </div>
+
+            <button class="w-full h-[52px] rounded-[25px] bg-[#CA2854] hover:bg-[#E14972] col-start-4 col-span-4"
+                type="submit">Submit</button>
+        </div>
+    </form>
+
+    <footer class="bg-black w-full h-[150px] flex items-center justify-center">
+        <p class="text-[16px] flex justify-center">&#169; 2025 Chanya Chumdee</p>
+    </footer>
+</body>
+
+</html>
